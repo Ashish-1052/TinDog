@@ -8,9 +8,11 @@
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -25,4 +27,11 @@
 .profile-img {
   height: 100px;
   border-radius: 50%;
+}
+
+.download-buttons {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
